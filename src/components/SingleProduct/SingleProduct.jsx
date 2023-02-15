@@ -7,7 +7,7 @@ import {
   FaPinterest,
   FaCartPlus,
 } from "react-icons/fa";
-                  
+
 import prod from "../../assets/products/earbuds-prod-1.webp";
 
 import "./SingleProduct.scss";
@@ -23,7 +23,7 @@ const SingleProduct = () => {
           <div className="right">
             <span className="name">Product Name</span>
             <span className="price">Price</span>
-            <span className="desc">Product Description</span>
+            <span className="desc">Product description</span>
 
             <div className="cart-buttons">
               <div className="quantity-buttons">
@@ -43,7 +43,7 @@ const SingleProduct = () => {
                 Category: <span>Headphones</span>
               </span>
               <span className="text-bold">
-                Share:{" "}
+                Share:
                 <span className="social-icons">
                   <FaFacebookF size={16} />
                   <FaTwitter size={16} />
